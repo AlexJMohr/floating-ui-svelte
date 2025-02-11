@@ -9,7 +9,8 @@
 		"dev:visual": "vite dev",
 		"dev:build": "pnpm build:watch",
 		"test:watch": "pnpm test --watch",
-		"sync": "svelte-kit sync && pnpm build"
+		"sync": "svelte-kit sync && pnpm build",
+		"prepare": "svelte-kit sync && pnpm build"
 	},
 	"files": ["dist"],
 	"sideEffects": false,
